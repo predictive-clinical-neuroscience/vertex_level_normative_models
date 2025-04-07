@@ -10,7 +10,7 @@ data_dir = os.path.join(root_dir,'data/')
 
 n_vertices = 10242
 
-phenotype = 'lh_thickness'
+phenotype = 'rh_thickness'
 
 proc_dir = os.path.join(root_dir, 'models', 'fsaverage5')
 os.makedirs(proc_dir, exist_ok=True)
